@@ -102,11 +102,11 @@ onion-v3-csr | onion-v3        | Y    | I-D.shoemaker-acme-onion
 
 # Security Considerations
 
-Probably should consider something here (may want to reference [@TOR-REND-V3] Section 2.2.7.).
+Probably should consider _something_ here (may want to reference [@TOR-REND-V3] Section 2.2.7?).
 
 # Acknowledgments
 
-Thank people (Wayne Thayer for his work on the CABF ballot).
+The author would like to thank those who offered editorial and technical input on the document. Special thanks to Wayne Thayer who authored the CA/Browser Forum ballot which specified acceptable validation methods for version 3 Onion addresses.
 
 {backmatter}
 
