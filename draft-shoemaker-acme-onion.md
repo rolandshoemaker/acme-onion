@@ -1,5 +1,5 @@
 %%%
-title = "Automated Certificate Management Environment (ACME) Onion v3 Identifier Validation Extension"
+title = "Automatic Certificate Management Environment (ACME) Onion v3 Identifier Validation Extension"
 ipr= "trust200902"
 area = "General"
 workgroup = "ACME Working Group"
@@ -7,9 +7,9 @@ submissiontype = "IETF"
 keyword = []
 
 [seriesInfo]
+value = "draft-shoemaker-acme-onion-00"
 status = "standard"
 name = "Internet-Draft"
-value = "draft-shoemaker-acme-onion-00"
 stream = "IETF"
 
 [[author]]
@@ -24,13 +24,13 @@ abbrev = "ISRG"
 
 .# Abstract
 
-This document specifies identifiers and challenges required to enable the Automated Certificate Management Environment (ACME) to issue certificates for Onion Addresses as specified in Tor Rendezvous Specification - Version 3.
+This document specifies identifiers and challenges required to enable the Automatic Certificate Management Environment (ACME) to issue certificates for Onion Addresses as specified in Tor Rendezvous Specification - Version 3.
 
 {mainmatter}
 
 # Introduction
 
-Currently the Automated Certificate Management Environment (ACME) [@!RFC8555] only specifies how DNS identifiers and IP address identifiers [@!RFC8738] may be validated for inclusion in x.509 certificates [@!RFC5280]. This document extends the protocol to include a validation mechanism for Tor version 3 Onion Addresses [@!TOR-REND-V3].
+Currently the Automatic Certificate Management Environment (ACME) [@!RFC8555] only specifies how DNS identifiers and IP address identifiers [@!RFC8738] may be validated for inclusion in x.509 certificates [@!RFC5280]. This document extends the protocol to include a validation mechanism for Tor version 3 Onion Addresses [@!TOR-REND-V3].
 
 # Terminology
 
