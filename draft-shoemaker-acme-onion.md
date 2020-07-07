@@ -7,7 +7,7 @@ submissiontype = "IETF"
 keyword = []
 
 [seriesInfo]
-value = "draft-shoemaker-acme-onion-00"
+value = "draft-shoemaker-acme-onion-01"
 status = "standard"
 name = "Internet-Draft"
 stream = "IETF"
