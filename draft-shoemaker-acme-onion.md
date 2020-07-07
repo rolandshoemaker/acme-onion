@@ -113,7 +113,7 @@ onion-v3-csr | onion-v3        | Y    | I-D.shoemaker-acme-onion
 
 # Acknowledgments
 
-The author would like to thank those who offered editorial and technical input on the document. Special thanks to Wayne Thayer who authored the CA/Browser Forum ballot which specified acceptable validation methods for version 3 Onion addresses.
+The author would like to thank those who offered editorial and technical input on the document. Special thanks to the participants in the CA/Browser who specified the initial validation mechanisms and controls for Onion Addresses.
 
 {backmatter}
 
