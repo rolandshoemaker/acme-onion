@@ -7,7 +7,7 @@ submissiontype = "IETF"
 keyword = []
 
 [seriesInfo]
-value = "draft-shoemaker-acme-onion-01"
+value = "draft-shoemaker-acme-onion-02"
 status = "standard"
 name = "Internet-Draft"
 stream = "IETF"
@@ -64,7 +64,7 @@ nonce (required, string):
 
 The client prepares for validation by constructing a Certificate Signing Request (CSR) [@!RFC2986]. This CSR MUST contain two attributes, a caSigningNonce attribute containing the nonce provided in the challenge object, and a applicantSigningNonce attribute containing a random value picked by the client. This random value MUST have at least 64 bits of entropy. The CSR MUST be signed by the private key associated with the public key contained within the Onion address.
 
-The caSigningNonce and applicantSigningNonce attributes are defined as follows in [@!CABF-BR] Appendix F
+The caSigningNonce and applicantSigningNonce attributes are defined as follows in [@!CABF-BR] Appendix C
 
 ```
 cabf-caSigningNonce OBJECT IDENTIFIER ::= { cabf 41 }
@@ -127,13 +127,13 @@ The author would like to thank those who offered editorial and technical input o
         <format type='HTML' target='https://spec.torproject.org/rend-spec-v3'/>
     </front>
 </reference>
-<reference anchor='CABF-BR' target='https://cabforum.org/wp-content/uploads/CA-Browser-Forum-BR-1.6.8.pdf'>
+<reference anchor='CABF-BR' target='https://cabforum.org/wp-content/uploads/CA-Browser-Forum-BR-1.6.9.pdf'>
     <front>
-        <title>Baseline Requirements for the Issuance and Management of Publicly-Trusted Certificates, Version 1.6.8</title>
+        <title>Baseline Requirements for the Issuance and Management of Publicly-Trusted Certificates, Version 1.6.9</title>
         <author>
           <organization>CA/Browser Forum</organization>
         </author>
         <date year='2020'/>
-        <format type='PDF' target='https://cabforum.org/wp-content/uploads/CA-Browser-Forum-BR-1.6.8.pdf'/>
+        <format type='PDF' target='https://cabforum.org/wp-content/uploads/CA-Browser-Forum-BR-1.6.9.pdf'/>
     </front>
 </reference>
